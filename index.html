@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2025 by anonymous (http://jsbin.com/sofejarila/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | WedaDev</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+<style id="jsbin-css">
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">Nissar Alee</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h1>HI I'm Nissar Alee</h1>
+            <h2 class="role">Frontend Developer</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore laborum cum quidem eligendi alias earum odio sapiente laboriosam minus. Officia magnam doloribus similique, ullam possimus odio molestias adipisci nihil iste.</p>
+
+            <div class="hero-botom">
+                <div class="buttons">
+                
+                    <button class="btn">Download CV</button>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img src="social/Instagram_Box_Filled_L@0.2x.png" alt="Instagram"></a>
+                    <a href="#"><img src="social/Linkedin_Filled_L Shadowless@0.2x.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="social/Twitter_Box_Filled_L Shadowless@0.2x.png" alt="Twitter"></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="profile-container">
+            <div class="background-circles"></div>
+    
+            <!-- Profile Image -->
+            <div class="profile">
+                <img src="man/mee.png" alt="Profile Image">
+            </div>
+    
+            <!-- Floating Icons -->
+            <img src="icon/about-figma.svg" class="icon figma" alt="Figma Icon">
+            <img src="icon/bootstrap-stack@2x.webp" class="icon bootstrap" alt="Bootstrap Icon">
+            <img src="icon/about-javascript.svg" class="icon js" alt="JavaScript Icon">
+            <img src="icon/about-html.svg" class="icon html" alt="HTML Icon">
+            <img src="icon/about-css.svg" class="icon css" alt="CSS Icon">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="man/mee.png" alt="About Image">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, quos eveniet veritatis ex ipsam quam dolorum provident maxime possimus odio incidunt architecto sint aspernatur autem accusamus voluptate officiis omnis aperiam!</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">
+            <span class="highlight">My</span> Project
+        </h2>
+        <p class="section-description">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi amet sed illum at perferendis soluta, tempora quas. Harum voluptates numquam dicta dolorem, similique maiores aut a cum, atque iusto quo?
+        </p>
+        
+    
+        <div class="project-container">
+            <div class="project-card">
+                <img src="pro/1.png" alt="Project 1">
+                <div class="project-info">
+                    <p class="category">Web</p>
+                    <p class="name">🔗 Kenangan senja</p>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <img src="pro/2.png" alt="Project 2">
+                <div class="project-info">
+                    <p class="category">Web</p>
+                    <p class="name">🔗 Kenangan senja</p>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <img src="pro/3.png" alt="Project 3">
+                <div class="project-info">
+                    <p class="category">Web</p>
+                    <p class="name">🔗 Kenangan senja</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="show-all">
+            <button class="show-all-btn">Show All ➜</button>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title"><span class="highlight">My</span> Skill</h2>
+        <p class="section-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore eos nam non necessitatibus, architecto nisi aliquam eaque explicabo esse debitis quaerat voluptate vel officia sapiente enim assumenda? Ipsam, cupiditate.
+        </p>
+        <div class="skills-container">
+            <img src="icon/about-html.svg" alt="HTML">
+            <img src="icon/about-javascript.svg" alt="JavaScript">
+            <img src="icon/about-css.svg" alt="CSS">
+            <img src="icon/about-figma.svg" alt="Figma">
+            <img src="icon/about-next-js.svg" alt="Node.js">
+            <img src="icon/bootstrap-stack@2x.webp" alt="Bootstrap">
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2 class="section-title"><span class="highlight">Contact</span> Me</h2>
+        <p class="section-description">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rem corrupti odit consectetur corporis laboriosam! Accusamus similique cum exercitationem distinctio fuga ad quod ipsum expedita temporibus laboriosam! Neque, debitis earum?
+        </p>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Phone Number">
+            </div>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
